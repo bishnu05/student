@@ -27,7 +27,7 @@ function storeData(){
 
 }
 
-let data=JSON.parse(localStorage.getItem("students"))||[];
+
 
 // function append(data){
 //     let navbar = document.getElementById("navbar");
@@ -45,7 +45,7 @@ let data=JSON.parse(localStorage.getItem("students"))||[];
 // }
 
 // append(data)
-
+// let data=JSON.parse(localStorage.getItem("students"))||[];
 
 function calculate(){
     let data=JSON.parse(localStorage.getItem("students"))||[];
