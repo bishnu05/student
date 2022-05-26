@@ -21,6 +21,7 @@ function append(data){
         batch.innerText=el.batch;
         let btn=document.createElement("button");
         btn.innerText="Remove";
+        btn.style.backgroundColor="red";
         btn.addEventListener("click",function(){
             remove(index);
         });
