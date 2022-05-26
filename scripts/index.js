@@ -3,7 +3,7 @@ function Student(n,c,u,i,b){
     this.course=c;
     this.unit=u;
     this.image=i;
-    this.batch=`FT_web ${b}`
+    this.batch=`FT_WEB ${b}`
 }
 
 function storeData(){
